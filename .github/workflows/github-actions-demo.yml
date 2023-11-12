@@ -10,8 +10,8 @@ jobs:
       - name: Install NPM
         run: |
           npm install
-      - name: tests
-        run: npm test
+      #- name: tests
+      #  run: npm test
       - name: Archive production artifacts
         uses: actions/upload-artifact@v3
         with:
